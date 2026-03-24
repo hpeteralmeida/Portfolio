@@ -2,7 +2,7 @@
 # written to show readability and scalability issues.
 #
 
-def credit_analize(name, age, income, score, clean_record, collateral):
+def credit_analyze(name, age, income, score, clean_record, collateral):
     if age >= 18:
         if income >= 2000:
             if score >= 700:
@@ -13,8 +13,8 @@ def credit_analize(name, age, income, score, clean_record, collateral):
                 if clean_record:
                     return 'Approved with collateral.' if collateral else 'Not approved: Bad credit history.'
                 return 'Not approved: Bad credit history.'
-            return 'Not approved: Insuficient score.'
-        return 'Not approved: Insuficient income.'
+            return 'Not approved: Insufficient score.'
+        return 'Not approved: Insufficient income.'
     return 'Not approved: Under 18.'
 
 # A clients list to test the function:
@@ -29,5 +29,5 @@ clients = [
 ]
 
 for name, age, income, score, clean_record, collateral in clients:
-    result = credit_analize(name, age, income, score, clean_record, collateral)
+    result = credit_analyze(name, age, income, score, clean_record, collateral)
     print(f'{name}: {result}')
