@@ -2,10 +2,6 @@
 
 ![alt text](./images/paginainicial.png)
 
-A **Sinta-Se** é uma plataforma de e-commerce conceitual dedicada à perfumaria de nicho. O projeto une um design minimalista e sofisticado com uma arquitetura de código moderna, focada em performance e escalabilidade através de renderização dinâmica de dados com JavaScript.
-
----
-
 ## 🎨 Identidade Visual e Design
 
 O projeto foi construído sob uma paleta de cores terrosas e orgânicas, evocando a sofisticação dos ingredientes naturais e o luxo clássico.
@@ -22,9 +18,6 @@ O projeto foi construído sob uma paleta de cores terrosas e orgânicas, evocand
 ---
 
 ## 🤖 Processo Criativo com Inteligência Artificial
-
-Este projeto é um estudo de caso sobre a simbiose entre o desenvolvimento humano e a Inteligência Artificial Generativa:
-
 * **Imagens:** Toda a asset visual, incluindo os frascos de perfumes, paisagens e modelos, foi gerada via IA, buscando texturas realistas e iluminação cinematográfica.
 * **Copywriting:** As descrições das fragrâncias, notas olfativas e narrativas de marca foram criadas utilizando modelos de linguagem avançados para garantir uma comunicação persuasiva e poética.
 
@@ -39,7 +32,7 @@ O site foi desenvolvido focando em um código limpo (*Clean Code*) e na modulari
 * **CSS3 Avançado:** * Uso de **CSS Grid** para layouts complexos (como o header simétrico e o grid do catálogo).
     * **Flexbox** para alinhamentos internos e fluidez.
     * **Responsive Design:** O site é totalmente adaptável para mobile, utilizando breakpoints estratégicos e o conceito de *Menu Hambúrguer* via CSS puro.
-* **JavaScript Vanilla:** * **Páginas Dinâmicas:** Implementação de uma lógica de `URLSearchParams` que permite carregar múltiplos produtos usando um único arquivo `produto.html`.
+* **JavaScript Vanilla:** * **Páginas Dinâmicas:** Implementação de uma lógica de `URLSearchParams` que permite carregar múltiplos produtos usando um único arquivo `produto.html`. (usado exclusivo para não haver necessidade de mais de uma pagina de produto)
     * **Data Object Management:** Os dados dos produtos são gerenciados através de um objeto centralizado, facilitando a manutenção e atualização da coleção.
 
 ### Destaques do Código
