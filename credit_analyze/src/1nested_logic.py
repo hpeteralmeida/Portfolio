@@ -1,6 +1,8 @@
-# This first version shows a function with nested conditions intentionally 
-# written to show readability and scalability issues.
-#
+"""
+Version 1: Nested Conditions
+This script demonstrates a basic approach using nested if-else statements.
+While functional, it shows scalability and readability challenges (the 'Pyramid of Doom').
+"""
 
 def credit_analyze(name, age, income, score, clean_record, collateral):
     if age >= 18:

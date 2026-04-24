@@ -1,9 +1,8 @@
-# Refactored version of v1_nested.py
-#
-# Improvements:
-# - Reduced nested conditionals using early returns
-# - Separated validation logic into small functions
-# - Improved readability and maintainability
+"""
+Version 2: Functional Approach
+Refactored to use 'Guard Clauses' for better readability.
+Each validation is isolated, making the main logic linear and easier to follow.
+"""
 
 def check_age(age):
      # Early return avoids wrapping the entire logic in a conditional block

@@ -1,9 +1,8 @@
-# Refactored version using a class structure
-#
-# Improvements:
-# - Encapsulated the credit analysis logic within a class
-# - Used instance methods to handle different validation steps
-# - Improved readability and maintainability by organizing related functionality together
+"""
+Version 3: Object-Oriented Programming (OOP)
+Encapsulates data into a Client class and logic into a CreditAnalyzer class.
+Demonstrates clean separation of concerns.
+"""
 
 class Client():
     def __init__(self, name, age, income, score, clean_record, collateral):
