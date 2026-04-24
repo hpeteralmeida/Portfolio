@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto | Sinta-Se</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <section class="logo">
+            <img src="../images/logo1.png" alt="Sinta-Se Logo">
+        </section>
+
+        <input type="checkbox" id="menu-check">
+        <label for="menu-check" class="menu-icon">&#9776;</label>
+
+        <nav class="menu">
+            <a href="../index.html"> Home </a>
+            <a href="./catalogo.html"> Coleção </a>
+            <a href="#"> Contato </a>
+        </nav>
+
+        <div class="search-container">
+            <input type="text" placeholder="Qual aroma você procura?">
+            <button type="submit">&#128269;</button>
+        </div>
+    </header>
+
+    <main class="container-produto">
+        <section class="produto-grid">
+            <div class="produto-imagem">
+                <img id="foto-produto" src="" alt="Carregando...">
+            </div>
+
+            <div class="produto-info">
+                <h1 id="produto-nome">Nome do Perfume</h1>
+                
+                <div class="avaliacao">
+                    <span>★★★★★</span>
+                    <small>(4.9/5 baseado em 120 avaliações)</small>
+                </div>
+
+                <p class="categoria">Fragrância Exclusiva</p>
+                
+                <p id="produto-preco" class="preco-menor">R$ 0,00</>
+                
+                <div class="descricao-box">
+                    <p class="titulo-essencia">Sobre a Essência</p>
+                    <p id="descricao" class="texto-descricao">Descrição do aroma...</p>
+                </div>
+
+                <div class="acoes-compra">
+                    <button class="comprar-button">Comprar</button>
+                    <a href="./catalogo.html" class="btn-voltar">Voltar para a Coleção</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
