@@ -396,7 +396,7 @@ input::placeholder {
 .container-produto {
     padding: 60px 40px;
     max-width: 1200px;
-    margin: 90px auto 0;
+    margin: 20px auto 0;
     display: flex;
     justify-content: center;
 }
